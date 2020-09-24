@@ -1,0 +1,4 @@
+arm-elf-gcc -c test.c -o test.o
+arm-elf-as startup.s -o startup.o
+arm-elf-ld -T test.ld test.o startup.o -o test.elf
+arm-elf-gdb test.elf

@@ -1,0 +1,4 @@
+Em um terminal fazer: ./run_startup.sh
+Em um segundo terminal fazer: ./run_qemu.sh
+
+Os dois scripts contem todos os comandos necessarios para compilar e rodar os programas.
